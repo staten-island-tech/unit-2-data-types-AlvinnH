@@ -1,7 +1,5 @@
-number =  input("write number")
-divider = 2
-calculate = int(number1)%divider
-if calculate == 0:
-    print("even")
-else:
-    print("odd")
+number = int(input("Choose a random number"))
+realnumber = number % 2
+if realnumber == 0:
+    print("Your number is even")
+else: print("Your number is odd")
