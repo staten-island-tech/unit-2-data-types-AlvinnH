@@ -1,6 +1,6 @@
-print("What is the bill? ")
+print("Bill:")
 bill = float(input())
-print("Was the service bad, okay, good, or great?")
+print("Was the service bad, okay, good, or great? ")
 service = input()
 if service == "bad":
     total = bill

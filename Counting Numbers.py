@@ -1,4 +1,4 @@
-Sentence = input("Write a sentence")
+Sentence = input("Input your sentence here: ")
 def function(x):
     input = x
     y = input.split( )
